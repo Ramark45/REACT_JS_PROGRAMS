@@ -1,0 +1,23 @@
+
+  .left {
+    padding: 20px;
+    background-color: hwb(218 1% 86%);
+    width:23%;
+    color: white;
+    margin-top: -1200px;
+    border-right:5px solid #969ca7;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.center
+{
+  border: 3px solid black;
+    padding: 20px;
+    background-color: white;
+   height: fit-content;
+    margin-top: -5px;
+    margin-left: 330px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
