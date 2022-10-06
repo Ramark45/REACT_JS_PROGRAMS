@@ -46,11 +46,11 @@ function MyResume() {
             <hr></hr>
             
             <ul>
-                <li>UI/UX</li>
-                <li>Visual Design</li>
-                <li>Wireframes</li>
-                <li>Story boards</li>
-                <li>User Flows</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVA SCRIPT</li>
+                <li>REACT JS</li>
+                <li>NODE JS</li>
             </ul>
             
         </div>
