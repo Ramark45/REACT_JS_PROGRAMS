@@ -1,0 +1,16 @@
+
+h1{
+  color: hsl(120, 72%, 41%);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+input{
+  border: 3px solid rgb(250, 229, 37);
+  border-radius: 10px;
+  width: 90%;
+  text-align: center;
+  
+}
+input:hover{
+  border-color: aquamarine;
+}
