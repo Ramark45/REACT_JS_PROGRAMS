@@ -1,4 +1,4 @@
-
+import OddEvenNumber from "./OddEvenNumber";
 const FindPalindrome=(number)=>{
     let reverse=0;let temp=number;
     let remainder;
@@ -20,6 +20,7 @@ const FindPalindrome=(number)=>{
     return (
       <>
       <div className="App">
+        {/* <h2><OddEvenNumber/></h2> */}
         <h2>{FindPalindrome(number1)}</h2>
       <h2>{FindPalindrome(number2)}</h2>
       </div></>

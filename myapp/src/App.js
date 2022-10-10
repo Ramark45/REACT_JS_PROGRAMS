@@ -1,13 +1,13 @@
 import './App.css';
-// function myName(){
-//   return user.firstname+" "+user.lastname;
-// }
-// const user={
-//   firstname:"RAMAR",
-//   lastname:"KALANGIAM K",
-//   degree:"B.tech",
-//   college:"VIT,Vellore"
-// }
+function myName(){
+  return user.firstname+" "+user.lastname;
+}
+const user={
+  firstname:"RAMAR",
+  lastname:"KALANGIAM K",
+  degree:"B.tech",
+  college:"VIT,Vellore"
+}
 
 const Student=(props)=>{
   return(
@@ -31,6 +31,7 @@ function App() {
   return (
     <>
     <div className="App">
+      <h2>{myName()}</h2>
     <Student firstname="Ramar" lastname="Kalangiam" degree="B.Tech" college="VIT,Vellore"/>  
     <Student firstname="Rajesh" lastname="Kannan" degree="B.Tech" college="VIT,Vellore"/>
     <Student firstname="Arun" lastname="Kumar" degree="B.Tech" college="VIT,Vellore"/>

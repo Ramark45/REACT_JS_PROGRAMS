@@ -5,6 +5,17 @@ const OddEven=(num)=>{
     return "Number "+num+" is odd";
   
   }
+  // function OddEven(num){
+  //   if(num%2==0)
+  //   return "Number "+num+" is even";
+  //   else
+  //   return "Number "+num+" is odd";
+  
+  // }
+
+
+  // changeColor = function() {    document.getElementById("demo").innerHTML += this;}
+  // changeColor = () => {    document.getElementById("demo").innerHTML += this;}
 
   function OddEvenNumber() {
     const num1=100;
