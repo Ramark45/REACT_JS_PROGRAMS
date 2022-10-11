@@ -1,0 +1,67 @@
+
+nav {
+  position: fixed;
+  top: 0;
+  width:50%;
+  height: 50px;
+  padding-left: 320px;
+}
+
+.list {
+  list-style-type: none;
+  background-color:white;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.items {
+  margin-right: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;font-weight: bold;
+  color: #1877f2;
+}
+.fb_video{
+  width: 50%;
+  /* height:400px; */
+
+}
+p{
+  width: 50%;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.fb_title{
+  float: left;
+    height: 50px;
+    margin-left: -200px;
+}
+.fb_feed{
+  width: 50%;
+  height: 500px;
+}
+h3{
+  color: red;
+}
+
+.btn {
+  /* position: absolute; */
+  padding: 5px;
+  color: white;
+  font-size: 18px;
+  background-color: green;
+  border-radius: 5px;
+}
+.link{
+  color:#1877f2;
+  text-decoration: none;
+}
+.footer{
+  background-color: #1877f2;
+  color: whitesmoke;
+/* position: fixed; */
+  height: 50px;
+width: 100%;
+  /* border:solid; */
+  border-color: #000000;
+}
