@@ -1,12 +1,13 @@
 import './App.css';
-import './App.css';
 import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 import Notification from './Pages/Notification';
 import OnlineStore from './Pages/OnlineStore';
 import Home from './Pages/Home';
 import Videos from './Pages/Videos';
 import Help from './Pages/Help';
-import fb_title from "./Pages/fb_title.jpg"
+import fb_title from "./Pages/fb_title.jpg";
+import { Login } from './Pages/Login';
+import Protected from './Pages/Protected';
 function App(){
   return(
     <>
@@ -22,8 +23,10 @@ function App(){
         <li className="items"><Link className='link' to="/OnlineStore">SHOP ONLINE</Link></li>
         <li className="items"><Link className='link' to="/Notification">NOTIFICATIONS</Link></li>
         <li className="items"><Link className='link'to="/Help">HELP</Link></li>
+        <li className="items"><Link className='link'to="/Logout">LOGOUT</Link></li>
         </ul>
       </nav>
+      
   
       <Routes>
         <Route path="/" element={<Home/>}/>
